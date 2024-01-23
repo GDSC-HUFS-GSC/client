@@ -39,7 +39,7 @@ function App() {
       <div className="App">
         <header className="header">
           {/* 로고 컴포넌트 */}
-          <div>TRAgle</div>
+          <div className="tragle-title">TRAgle</div>
           {/* 검색 바 컴포넌트 */}
           <div className="search-bar">
             <input
@@ -47,9 +47,10 @@ function App() {
               placeholder="Trash 검색"
               value={searchQuery}
               onChange={handleSearchChange}
+              className="search-input"
             />
             <Link to="/search">
-              <button>🔍</button>
+              <button className="search-button">🔍</button>
             </Link>
             <input
               type="file"
