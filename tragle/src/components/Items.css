@@ -1,0 +1,25 @@
+/* ItemComponent.css */
+.item-container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.item-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.item-title {
+  margin-top: 10px;
+}
+
+/* ItemList.css */
+.item-list {
+  display: flex;
+  flex-direction: column; /* 세로 방향 정렬 */
+  align-items: center; /* 가운데 정렬 */
+}
